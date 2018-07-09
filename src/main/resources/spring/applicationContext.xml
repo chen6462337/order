@@ -11,6 +11,7 @@
 
 	<!-- 数据源：DB连接配置 -->
 	<!--  用于表达本地的提交测试 -->
+        <!-- 用于自我的git测试远端github	 -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://192.168.1.197:3306/order?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF-8" />
